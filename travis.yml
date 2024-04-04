@@ -42,6 +42,6 @@ install:
   - ls bin/ -l
   - echo "TODO"
   - gem install dpl --pre
-  - dpl releases --token $GITHUB_TOKEN --file "bin/mortgagecalculator-2.3-arm64-v8a-debug.apk" --tag_name "v.2.3"
+  - dpl releases --token $GITHUB_TOKEN --file "bin/MobileApp4CS2Guide-2.3-arm64-v8a-debug.apk" --tag_name "v.Alfa.0.1"
 script:
   - echo "OK"
